@@ -5,11 +5,12 @@ public class NumSquared {
       Scanner scnr = new Scanner(System.in);
       int userNum;
       int userNumSquared;
-      
+
+      System.out.println("Enter a number:");
       userNum = scnr.nextInt();
-      
-      userNumSquared = userNum + userNum;   // Bug here; fix it when instructed
-      
-      System.out.print(userNumSquared);   // Output formatting issue here; fix it when instructed
+
+      userNumSquared = userNum * userNum;
+
+      System.out.println("Number Squared is: " + userNumSquared);
    }
 }
